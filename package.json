@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npx --yes serve@14 out",
+    "start": "next start",
     "images": "NODE_USE_ENV_PROXY=1 node scripts/download-images.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
