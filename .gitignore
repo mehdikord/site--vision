@@ -1,0 +1,13 @@
+node_modules/
+./node_modules
+.next/
+out/
+.env*
+.DS_Store
+*.log
+
+# prisma generated client
+src/generated/
+
+# uploaded files
+public/uploads/
